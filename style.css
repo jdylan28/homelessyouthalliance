@@ -1,0 +1,188 @@
+
+/*Mobile*/
+
+/*Universal*/
+
+body {
+    font-family: Assistant;
+    font-size: 16px;
+    width: 100%;
+    }
+
+h1 {
+    font-family: "Fjalla One";
+    font-size: 45px;
+    line-height: 50px;
+    }
+
+h2 {
+    font-family: Assistant;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+
+h3 {
+    font-size: 22px;
+    font-family: Assistant;
+    line-height: 28px;
+    }
+
+.shadow {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+
+.fas {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+
+.fas:hover {
+    transform: scale(1.05);
+
+    }
+
+/*Nav*/
+
+.nav {
+    height: 80px;
+    width: 100%;
+    }
+
+.navlogo {
+    width: 50px;
+    margin-left: 32px;
+    padding: 15px 0;
+    }
+
+.search, .hamburger {
+    float: right;
+    margin-right: 32px;
+    font-size: 30px;
+    padding: 25px 0;
+    color: #2D3E50;
+    }
+
+/*Hero*/
+
+.hero {
+    height: 586px;
+    background-image: url(images/hero.jpeg);
+    background-position: -230px 0px;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(45, 62, 80, .7);
+    color: white;
+    border: 1px solid black;
+    }
+
+.valueprop,
+.valuepropdescription,
+.valuepropbutton {
+    margin-left: 32px;
+    margin-right: 64px;
+    }
+
+.valueprop {
+    margin-top: 43px;
+    margin-bottom: 23px;
+    }
+
+.valuepropdescription {
+    margin-bottom: 24px;
+    }
+
+.valuepropbutton {
+    width: 174px;
+    height: 40px;
+    background-color: #E64C66;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    }
+
+.valuepropbutton:hover {
+    transform: scale(1.05);
+    }
+
+.button {
+    font-family: Assistant;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    }
+
+/*Cards*/
+
+.category {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.line {
+    padding: 1px;
+    background-color: black;
+    width: 182px;
+    margin: auto;
+}
+
+.card {
+    width: 278px;
+    height: 341px;    
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 64px;
+}
+
+.cardimage {
+    width: 278px;
+    height: 176px;    
+    background-image: url(images/ourmission.jpg);
+    background-size: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(45, 62, 80, .2);
+
+}
+
+.cardtitle {
+    margin-top: 21px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.carddescription {
+    width: 214px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.cardlink {
+    color: #E64C66;
+    float: right;
+    margin-right: 32px;
+    transition-duration: 0.4s;
+}
+
+.cardlink:hover {
+color: #1BBC9B}
+
+/*Footer*/
+
+.footer {
+    background-color: #E64C66;
+}
+
+.leftfooter {
+    width: 150px;
+    float: left;
+}
+
+.middlefooter {
+    width: 150px;
+    margin: auto;
+}
+
+.rightfooter {
+    width: 22px;
+}
